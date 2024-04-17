@@ -70,7 +70,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?= $zodiacs[0]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[0]['imgScr']?>" alt="<?= $zodiacs[0]['name'] ?>">
+						<img src="<?= $zodiacs[0]['imgSrc']?>" alt="<?= $zodiacs[0]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?=$zodiacs[0]['name'] ?></h3>
@@ -82,7 +82,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?= $zodiacs[1]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[1]['imgScr'?>" alt="<?= $zodiacs[1]['name'] ?>">
+						<img src="<?= $zodiacs[1]['imgSrc']?>" alt="<?= $zodiacs[1]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[1]['name']?></h3>
@@ -94,7 +94,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?= $zodiacs[2]['ID'] ?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[2]['imgScr'] ?>" alt="<?= $zodiacs[2]['name'] ?>">
+						<img src="<?= $zodiacs[2]['imgSrc'] ?>" alt="<?= $zodiacs[2]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[2]['name']?></h3>
@@ -110,7 +110,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?= $zodiacs[3]['ID'] ?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[3]['imgScr'] ?>" alt="<?= $zodiacs[3]['name']?>">
+						<img src="<?= $zodiacs[3]['imgSrc'] ?>" alt="<?= $zodiacs[3]['name']?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[3]['name']?></h3>
@@ -122,7 +122,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?=$zodiacs[4]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[4]['imgScr']?>" alt="<?= $zodiacs[4]['name']?>">
+						<img src="<?= $zodiacs[4]['imgSrc']?>" alt="<?= $zodiacs[4]['name']?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[4]['name']?></h3>
@@ -134,7 +134,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?=$zodiacs[5]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[5]['imgScr']?>" alt="<?= $zodiacs[5]['name']?>">
+						<img src="<?= $zodiacs[5]['imgSrc']?>" alt="<?= $zodiacs[5]['name']?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[5]['name']?></h3>
@@ -150,7 +150,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?=$zodiacs[6]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[6]['imgScr']?>" alt="<?= $zodiacs[6]['name'] ?>">
+						<img src="<?= $zodiacs[6]['imgSrc']?>" alt="<?= $zodiacs[6]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[6]['name']?></h3>
@@ -162,7 +162,7 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?= $zodiacs[7]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= $zodiacs[7]['imgScr']?>" alt="<?= $zodiacs[7]['name'] ?>">
+						<img src="<?= $zodiacs[7]['imgSrc']?>" alt="<?= $zodiacs[7]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
 					<h3><?= $zodiacs[7]['name'] ?></h3>
@@ -174,12 +174,12 @@
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
 					<a href="horoscope.php?sign=<?= $zodiacs[8]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= '' ?>" alt="<?= '' ?>">
+						<img src="<?= $zodiacs[8]['imgSrc'] ?>" alt="<?= $zodiacs[8]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
-					<h3><?= '' ?></h3>
+					<h3><?= $zodiacs[8]['name']?></h3>
 					<!-- Display birthday range of zodiac sign -->
-					<p><?= '' ?></p>
+					<p><?= $zodiacs[8]['birthday'] ?></p>
 				</div>
 				
 			</div>
@@ -188,38 +188,38 @@
 
 				<div class="horoscope">
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
-					<a href="horoscope.php?sign=<?= '' ?>">
+					<a href="horoscope.php?sign=<?= $zodiacs[9]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= '' ?>" alt="<?= '' ?>">
+						<img src="<?= $zodiacs[9]['imgSrc']?>" alt="<?= $zodiacs[9]['name']?>">
 					</a>
 					<!-- Display name of zodiac sign -->
-					<h3><?= '' ?></h3>
+					<h3><?= $zodiacs[9]['name']?></h3>
 					<!-- Display birthday range of zodiac sign -->
-					<p><?= '' ?></p>
+					<p><?= $zodiacs[9]['birthday']?></p>
 				</div>
 
     			<div class="horoscope">
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
-					<a href="horoscope.php?sign=<?= '' ?>">
+					<a href="horoscope.php?sign=<?= $zodiacs[10]['ID']?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= '' ?>" alt="<?= '' ?>">
+						<img src="<?= $zodiacs[10]['imgSrc'] ?>" alt="<?= $zodiacs[10]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
-					<h3><?= '' ?></h3>
+					<h3><?= $zodiacs[10]['name']?></h3>
 					<!-- Display birthday range of zodiac sign -->
-					<p><?= '' ?></p>
+					<p><?= $zodiacs[10]['birthday']?></p>
 				</div>
 
 			    <div class="horoscope">
 					<!-- Create a hyperlink to horoscope.php page with sign as parameter -->
-					<a href="horoscope.php?sign=<?= '' ?>">
+					<a href="horoscope.php?sign=<?= $zodiacs[11]['ID'] ?>">
 						<!-- Display image of zodiac with its name as alt text -->
-						<img src="<?= '' ?>" alt="<?= '' ?>">
+						<img src="<?= $zodiacs[11]['imgSrc']?>" alt="<?= $zodiacs[11]['name'] ?>">
 					</a>
 					<!-- Display name of zodiac sign -->
-					<h3><?= '' ?></h3>
+					<h3><?= $zodiacs[11]['name']?></h3>
 					<!-- Display birthday range of zodiac sign -->
-					<p><?= '' ?></p>
+					<p><?= $zodiacs[11]['birthday'] ?></p>
 				</div>
 				
 			</div>
